@@ -1,5 +1,6 @@
 {
-    "rewrites":  [
-      {"source": "/newton", "destination": "/newton"}
+    "routes":  [
+      {"source": "/", "destination": "/"},
+      {"source": "/Newton", "destination": "/newton"}
     ]
   }
