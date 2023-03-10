@@ -7,6 +7,7 @@ import test4 from "../../assets/TEST4.png";
 import test5 from "../../assets/TEST5.png";
 import { useParallax } from "react-scroll-parallax";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   const { ref } = useParallax({ speed: 20 });
@@ -53,9 +54,12 @@ const Work = () => {
                                 group-hover:translate-y-0
                                 
                                 bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
-                                <div class=" flex justify-evenly ">
+                                
+                               <div class=" flex justify-evenly ">
                                     <p class="text-lg text-black">
+                                    <Link to="/Newton" preventScrollReset={false}>
                                         Newton Index - Case Study
+                                        </Link>
                                     </p>
 
                                 </div>
