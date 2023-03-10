@@ -1,0 +1,5 @@
+{
+    "rewrites":  [
+      {"source": "/newton", "destination": "/newton"}
+    ]
+  }
