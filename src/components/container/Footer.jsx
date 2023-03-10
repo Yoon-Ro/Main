@@ -13,7 +13,7 @@ const Footer = () => {
         initial={{ scale: 0 / 5 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.2 }}
-        className="mt-32 mb-8 flex pl-24 text-center items-center h-[20vh] bg-black text-white rounded-full"
+        className="mt-8 mb-8 flex pl-24 text-center items-center h-[20vh] bg-black text-white rounded-[2rem]"
       >
         <ul className="flex gap-8 items-center">
           <li className="text-2xl px-6 sm:py-2 border-2 border-white rounded-full hover:bg-white hover:text-black">

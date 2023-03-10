@@ -20,21 +20,21 @@ const About2 = () => {
       };
   return (
     <div className='sm:w-[1420px] mx-auto'>
-        <p className='px-16 w-4/5 sm:px-0 text-xl sm:w-3/5 vbc py-16'>I have a strong understanding of business needs and brand identity. I am proficient in using Figma, Adobe, and Front-end development for digital products. This has allowed me to create functional and visually pleasing products.</p>
-                   <div className='sm:px-0 px-12 grid sm:grid-cols-3 gap-16'>
+        <p className='px-16 w-4/5 sm:px-0 text-xl sm:w-3/5 py-16'>I have a strong understanding of business needs and brand identity. I am proficient in using Figma, Adobe, and Front-end development for digital products. This has allowed me to create functional and visually pleasing products.</p>
+                   <div className='sm:px-0 px-12 grid sm:grid-cols-3 gap-8'>
                    <motion.div 
                         variants={box}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{once: true, amount:0.5}}
                         transition={{ delay: 0.1 }}
-                        className="col-span-1 hover:shadow-xl p-4">
+                        className="col-span-1 shadow-sm p-4 bg-slate-200 rounded-[2rem]">
            
                 <ul>
-                    <h1 className='text-4xl py-4 border-b-2 my-2'>UI/UX Design</h1>
-                    <li>UX Research</li>
-                    <li>Wireframe</li>
-                    <li>High-fidelity designs</li>
+                    <h1 className='text-4xl py-6 border-b-1'>UI/UX Design</h1>
+                    <li className='py-1 '>UX Research</li>
+                    <li className='py-1 '>Wireframe</li>
+                    <li className='py-1 '>High-fidelity designs</li>
                 </ul>
             </motion.div>
 
@@ -44,12 +44,12 @@ const About2 = () => {
                         whileInView="visible"
                         viewport={{once: true, amount:0.5}}
                         transition={{ delay: 0.3 }}
-                        className="col-span-1 hover:shadow-xl p-4">
+                        className="col-span-1 shadow-sm p-4 bg-slate-100 rounded-[2rem]">
            
             <ul>
-                    <h1 className='text-4xl py-4 border-b-2 my-2'>Web Development</h1>
-                    <li>React JavaScript</li>
-                    <li>HTML & CSS</li>
+                    <h1 className='text-4xl py-6 border-b-1'>Web Development</h1>
+                    <li className='py-1 '>React JavaScript</li>
+                    <li className='py-1 '>HTML & CSS</li>
                 </ul>
                 </motion.div>
                 <motion.div 
@@ -58,12 +58,12 @@ const About2 = () => {
                         whileInView="visible"
                         viewport={{once: true, amount:0.5}}
                         transition={{ delay: 0.5 }}
-                        className="col-span-1 hover:shadow-xl p-4">
+                        className="col-span-1 shadow-sm p-4 bg-slate-100/50 rounded-[2rem]">
            
             <ul>
-                    <h1 className='text-4xl py-4 border-b-2 my-2'>Graphic Design</h1>
-                    <li>Web Contents</li>
-                    <li>Marketing Graphics</li>
+                    <h1 className='text-4xl py-6 border-b-1'>Graphic Design</h1>
+                    <li className='py-1 '>Web Contents</li>
+                    <li className='py-1 '>Marketing Graphics</li>
                 </ul>
                 </motion.div>
            </div>
