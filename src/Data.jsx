@@ -27,8 +27,8 @@ export const navLinks = [
   },
   {
     id: 2,
-    href: "work",
-    link: "Work",
+    href: "design",
+    link: "Design",
   },
   {
     id: 3,

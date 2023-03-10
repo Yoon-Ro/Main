@@ -25,7 +25,7 @@ const Work = () => {
   };
 
   return (
-    <div id="work">
+    <div id="design">
       <div className="w-full sm:w-[1420px] mx-auto my-8">
         <p1 className="text-4xl sm:px-0 px-2  sm:text-[180px] ">DESIGN</p1>
         <div className="px-12 sm:px-0 sm:flex flex-row justify-between sm:gap-16">

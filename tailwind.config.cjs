@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      Gloock: "Gloock"
+      Poppins: "Poppins"
     },
     extend: {
       colors: {
