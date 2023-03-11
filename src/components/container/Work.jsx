@@ -96,7 +96,7 @@ const Work = () => {
                                 bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
                                     <p class="text-lg text-black">
-                                        concept website redesign and development
+                                        concept website design
                                     </p>
 
                                 </div>

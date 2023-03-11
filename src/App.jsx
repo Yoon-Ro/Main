@@ -18,7 +18,7 @@ function App() {
        <Routes>
         
        <Route exact path="/" element={<Homepage />} />
-       <Route exact path="/Newton" element={<Newton />} />
+       <Route exact path="/newton" element={<Newton />} />
     </Routes>
     <Footer/>
     </div>
