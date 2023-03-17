@@ -4,6 +4,7 @@ import {
     Home,
     About,
     Footer,
+    Together,
     Work,
     About2
   } from "../components/index"
@@ -16,8 +17,7 @@ const Homepage = () => {
 
       <Home />
       <Work/>
-      <About />
-      <About2 />
+ <Together/>
 
  
     </div>

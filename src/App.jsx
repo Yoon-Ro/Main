@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop/>
-           <div className=" font-Poppins bg-white">
+           <div className=" font-Inter bg-white">
             <Navbar />
        <Routes>
         

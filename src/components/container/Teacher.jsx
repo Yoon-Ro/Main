@@ -5,6 +5,7 @@ import { accordions } from "../../Data";
 import Accordion from "./Accordion";
 
 const Teacher = () => {
+  const { ref } = useParallax({ speed: 20 });
   return (
     <div className='section' id='teacher'>
       {/* SECTION 1 */}

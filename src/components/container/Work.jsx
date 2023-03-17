@@ -27,7 +27,7 @@ const Work = () => {
   return (
     <div id="design">
       <div className="w-full sm:w-[1420px] mx-auto my-8">
-        <p1 className="text-4xl sm:px-0 px-2  sm:text-[180px] ">DESIGN</p1>
+        <p1 className="text-4xl sm:px-0 px-2  sm:text-[64px] font-medium ">Design</p1>
         <div className="px-12 sm:px-0 sm:flex flex-row justify-between sm:gap-16">
           <div>
 
@@ -53,10 +53,10 @@ const Work = () => {
                                 group-hover:opacity-100 
                                 group-hover:translate-y-0
                                 
-                                bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
+                                bg-white/80 backdrop-blur p-4 rounded-full shadow-xl ">
                                 
                                <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
+                                    <p class="text-lg text-black font-medium">
                                     <Link to="/Newton" preventScrollReset={false}>
                                         Newton Index - Case Study
                                         </Link>
@@ -93,9 +93,9 @@ const Work = () => {
                                 group-hover:opacity-100 
                                 group-hover:translate-y-0
                                 
-                                bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
+                                bg-white/80 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
+                                    <p class="text-lg text-black font-medium">
                                         concept website design
                                     </p>
 

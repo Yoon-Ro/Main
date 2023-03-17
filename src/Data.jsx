@@ -20,18 +20,14 @@ import logo5 from "./assets/logo5.png";
 import logo6 from "./assets/logo6.png";
 
 export const navLinks = [
+
   {
     id: 1,
-    href: "home",
-    link: "Home",
-  },
-  {
-    id: 2,
     href: "design",
     link: "Design",
   },
   {
-    id: 3,
+    id: 2,
     href: "about",
     link: "About",
   },

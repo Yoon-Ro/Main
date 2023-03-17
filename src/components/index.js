@@ -7,5 +7,6 @@ import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
 import Work from "./container/Work";
+import Together from "./container/Together";
 
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Work, About2 };
+export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Work, About2, Together };
