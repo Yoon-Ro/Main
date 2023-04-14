@@ -19,6 +19,7 @@ function App() {
         
        <Route exact path="/" element={<Homepage />} />
        <Route exact path="/newton" element={<Newton />} />
+    
     </Routes>
     <Footer/>
     </div>

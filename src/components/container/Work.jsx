@@ -1,10 +1,13 @@
 import React from "react";
-import test from "../../assets/TEST.png";
-import test1 from "../../assets/TEST1.png";
-import test2 from "../../assets/TEST2.png";
-import test3 from "../../assets/TEST3.png";
-import test4 from "../../assets/TEST4.png";
-import test5 from "../../assets/TEST5.png";
+import web1 from "../../assets/web1.png";
+import web2 from "../../assets/web2.png";
+import web3 from "../../assets/web3.png";
+import web4 from "../../assets/web4.png";
+import web5 from "../../assets/web5.png";
+import web6 from "../../assets/web6.png";
+import web7 from "../../assets/web7.png";
+import web8 from "../../assets/web8.png";
+import web9 from "../../assets/web9.png";
 import { useParallax } from "react-scroll-parallax";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -27,7 +30,8 @@ const Work = () => {
   return (
     <div id="design">
       <div className="w-full sm:w-[1420px] mx-auto my-8">
-        <p1 className="text-4xl sm:px-0 px-2  sm:text-[64px] font-medium ">Design</p1>
+        <p1 className="text-4xl  sm:text-[64px] font-medium ">Design</p1> 
+        <p className="pl-1 pt-2">website + graphic</p>
         <div className="px-12 sm:px-0 sm:flex flex-row justify-between sm:gap-16">
           <div>
 
@@ -43,7 +47,7 @@ const Work = () => {
                 <a class="relative block group group-hover:shadow-xl">
                     <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
                         src=
-{test1} />
+{web1} />
                     <div class="relative px-2 mx-2 ">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
@@ -83,7 +87,41 @@ const Work = () => {
                 <a class="relative block group group-hover:shadow-xl">
                     <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
                         src=
-{test} />
+{web2} />
+                    <div class="relative px-2 mx-2 ">
+                        <div class="mt-[-5rem]">
+                            <div class="transition-all transform 
+                                translate-y-8 
+                                translate-x-[-0.5rem]
+                                group-hover:rotate-2 opacity-0 
+                                group-hover:opacity-100 
+                                group-hover:translate-y-0
+                                
+                                bg-white/80 backdrop-blur p-4 rounded-full shadow-xl ">
+                                <div class=" flex justify-evenly ">
+                                    <p class="text-lg text-black font-medium">
+                                        concept website design
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </motion.div>
+            <motion.div
+              variants={box}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ delay: 0.1 }}
+            >
+                          <div class="flex  py-12 ">
+                <a class="relative block group group-hover:shadow-xl">
+                    <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
+                        src=
+{web3} />
                     <div class="relative px-2 mx-2 ">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
@@ -120,7 +158,7 @@ const Work = () => {
                 <a class="relative block group group-hover:shadow-xl">
                     <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
                         src=
-{test2} />
+{web4} />
                     <div class="relative px-2 mx-2 ">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
@@ -153,7 +191,41 @@ Bank Credit Card Concept Design                                    </p>
                 <a class="relative block group group-hover:shadow-xl">
                     <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
                         src=
-{test3} />
+{web5} />
+                    <div class="relative px-2 mx-2 ">
+                        <div class="mt-[-5rem]">
+                            <div class="transition-all transform 
+                                translate-y-8 
+                                translate-x-[-0.5rem]
+                                group-hover:rotate-2 opacity-0 
+                                group-hover:opacity-100 
+                                group-hover:translate-y-0
+                                
+                                bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
+                                <div class=" flex justify-evenly ">
+                                    <p class="text-lg text-black">
+                                        Online Course Landing Page
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </motion.div>
+            <motion.div
+              variants={box}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ delay: 0.1 }}
+            >
+                          <div class="flex  py-12 ">
+                <a class="relative block group group-hover:shadow-xl">
+                    <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
+                        src=
+{web6} />
                     <div class="relative px-2 mx-2 ">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
@@ -189,7 +261,7 @@ Bank Credit Card Concept Design                                    </p>
                 <a class="relative block group group-hover:shadow-xl">
                     <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
                         src=
-{test4} />
+{web7} />
                     <div class="relative px-2 mx-2 ">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
@@ -222,7 +294,7 @@ BAF Interaction Cloning                                    </p>
                 <a class="relative block group group-hover:shadow-xl">
                     <img class="group-hover:opacity-100 group-hover:rotate-2 transition-all "
                         src=
-{test5} />
+{web8} />
                     <div class="relative px-2 mx-2 ">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
@@ -240,6 +312,26 @@ BAF Interaction Cloning                                    </p>
 
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </motion.div>
+            <motion.div
+              variants={box}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ delay: 0.1 }}
+            >
+                          <div class="flex  py-12 ">
+                <a class="relative block group group-hover:shadow-xl">
+                    <img class="group-hover:opacity-100 transition-all hover:cursor-pointer "
+                        src=
+{web9} />
+                    <div class="relative px-2 mx-2 ">
+                        <div class="mt-[-5rem]">
+
                         </div>
                     </div>
                 </a>
