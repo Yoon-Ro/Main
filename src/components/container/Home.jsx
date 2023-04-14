@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <div
-      className="w-full sm:pt-0 pt-[6rem] sm:px-0 px-2 sm:w-[1420px] mx-auto"
+      className="w-full sm:pt-0 pt-[6rem] sm:px-0 px-2  bg-gradient-to-tr from-rose-100 to-teal-100"
       id="home"
-    >
+    ><div className="sm:w-[1420px] mx-auto">
       <div className="md:flex  items-center  h-[100vh] sm:pt-0 pt-[4rem]">
         {/* HERO TEXT - LEFT */}
         <div className="w-3/4 relative">
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div></div>
+      </div>
     </div>
   );
 };

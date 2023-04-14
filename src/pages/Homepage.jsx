@@ -14,6 +14,7 @@ const Homepage = () => {
   return (
     <ParallaxProvider>
     <div className=" font-Gloock bg-white">
+    <Navbar />
 
       <Home />
       <Work/>
