@@ -27,8 +27,9 @@ const scrollActive = () => { setActive(window.scrollY > 20);};
     } w-fit py-1 mx-auto flex items-center justify-center px-1 mt-8 bg-white/80 backdrop-blur  shadow-2xl rounded-full`}>
 
          <div className='flex items-center justify-between '>
-   <h1 className='font-medium text-lg rounded-full shadow-md px-4 py-3 bg-white'>Design</h1>
-   <h1 className='font-medium text-lg rounded-full px-4 py-3 text-[#0000007c]'><Link to="/me">About</Link></h1>
+         <h1 className='font-medium text-lg rounded-full px-4 py-3 text-[#0000007c]'><Link to="/">Design</Link></h1>
+   <h1 className='font-medium text-lg rounded-full shadow-md px-4 py-3 bg-white'>About</h1>
+
          </div>         
 
 

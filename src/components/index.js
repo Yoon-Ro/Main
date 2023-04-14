@@ -6,7 +6,9 @@ import Courses from "./container/Course/Courses";
 import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
+import Navbar2 from "./Navbar/Navbar2";
 import Work from "./container/Work";
 import Together from "./container/Together";
+import Together2 from "./container/Together2";
 
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer, Work, About2, Together };
+export { Navbar, Navbar2, Home, About, Courses, Teacher,Contact, Footer, Work, About2, Together, Together2 };
