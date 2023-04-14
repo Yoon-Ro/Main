@@ -20,7 +20,7 @@ const scrollActive = () => { setActive(window.scrollY > 20);};
   return (
     <div className={`${
       active ? "  " : ""
-    } fixed w-full justify-center top-0 left-0 z-20`}>
+    } fixed  inset-x-0 justify-center top-0 left-0 right-0 z-20`}>
       <div>
         <div className={`${
       active ? "py-4  " : "py-4"

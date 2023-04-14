@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[#fff3e5]">
-    <div className="mx-auto sm:w-[1420px] px-2 sm:px-0 bg-[#fff3e5]">
+    <div className="mx-auto w-3/4 bg-[#fff3e5]">
       <motion.div
         initial={{ scale: 4 / 5 }}
         whileInView={{ scale: 1 }}
