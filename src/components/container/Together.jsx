@@ -9,7 +9,7 @@ const Together = () => {
         <div ref={ref} className="mt-[0rem] mx-auto">
 <div className='mx-auto text-center'>
     <h1 className='text-6xl mt-12 pb-6 text-[#ffffff]'>Design is my passion</h1>
-<h1 className="text-lg text-black/70">I'm currently open for a design position. Let's talk how we can build a future together.</h1>
+<h1 className="text-lg text-black/70">I'm currently open for a designer position. Let's talk how we can build a future together.</h1>
    
 </div>
 </div>
