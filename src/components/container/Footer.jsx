@@ -38,7 +38,7 @@ const Footer = () => {
         </ul>
         <li className="right-0 list-none text-xl px-6 sm:py-2   text-white rounded-full bg-[#507efc] hover:bg-[#4474f8] hover:text-white shadow-2xl">
             {" "}
-            <a href="mailto:name@rapidtables.com" target="_blank">
+            <a href="mailto:designer@yoonro.com" target="_blank">
               Contact
             </a>
           </li>
