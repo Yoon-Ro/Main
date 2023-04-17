@@ -1,13 +1,13 @@
 import React from "react";
-import web1 from "../../assets/web1.png";
-import web2 from "../../assets/web2.png";
-import web3 from "../../assets/web3.png";
-import web4 from "../../assets/web4.png";
-import web5 from "../../assets/web5.png";
-import web6 from "../../assets/web6.png";
-import web7 from "../../assets/web7.png";
-import web8 from "../../assets/web8.png";
-import web9 from "../../assets/web9.png";
+import web1 from "../../assets/web1.jpeg";
+import web2 from "../../assets/web2.jpeg";
+import web3 from "../../assets/web3.jpeg";
+import web4 from "../../assets/web4.jpeg";
+import web5 from "../../assets/web5.jpeg";
+import web6 from "../../assets/web6.jpeg";
+import web7 from "../../assets/web7.jpeg";
+import web8 from "../../assets/web8.jpeg";
+import web9 from "../../assets/web9.jpeg";
 import { useParallax } from "react-scroll-parallax";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -57,12 +57,12 @@ const Work = () => {
                                 group-hover:opacity-100 
                                 group-hover:translate-y-0
                                 
-                                bg-white/80 backdrop-blur p-4 rounded-full shadow-xl ">
+                                bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 
                                <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black font-medium">
+                                    <p class="text-md text-black font-medium">
                                     <Link to="/Newton" preventScrollReset={false}>
-                                        Newton Index - Case Study
+                                        iPhone price indice website
                                         </Link>
                                     </p>
 
@@ -89,6 +89,7 @@ const Work = () => {
                         src=
 {web2} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.behance.net/gallery/160635609/CleanDay-Website" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -97,15 +98,16 @@ const Work = () => {
                                 group-hover:opacity-100 
                                 group-hover:translate-y-0
                                 
-                                bg-white/80 backdrop-blur p-4 rounded-full shadow-xl ">
+                                bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black font-medium">
-                                        concept website design
+                                    <p class="text-md text-black font-medium">
+                                        Laundry delivery service website
                                     </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -123,6 +125,7 @@ const Work = () => {
                         src=
 {web3} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.behance.net/gallery/163734007/Blockchain-Education-Website-Cloning-Frontend" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -131,15 +134,16 @@ const Work = () => {
                                 group-hover:opacity-100 
                                 group-hover:translate-y-0
                                 
-                                bg-white/80 backdrop-blur p-4 rounded-full shadow-xl ">
+                                bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black font-medium">
-                                        concept website design
+                                    <p class="text-md text-black font-medium">
+                                        learning website interaction cloning
                                     </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -160,6 +164,7 @@ const Work = () => {
                         src=
 {web4} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.behance.net/gallery/164365683/ROGO-Juice-Concept-Website-Design" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -170,12 +175,13 @@ const Work = () => {
                                 
                                 bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
-Bank Credit Card Concept Design                                    </p>
+                                    <p class="text-md text-black">
+Organic juice website                              </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -193,6 +199,7 @@ Bank Credit Card Concept Design                                    </p>
                         src=
 {web5} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.behance.net/gallery/168357231/Yoga-Studio-website-design-and-front-end-development" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -203,13 +210,14 @@ Bank Credit Card Concept Design                                    </p>
                                 
                                 bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
-                                        Online Course Landing Page
+                                    <p class="text-md text-black">
+                                        Yoga fitness website
                                     </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -227,6 +235,7 @@ Bank Credit Card Concept Design                                    </p>
                         src=
 {web6} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.behance.net/gallery/164191445/Design-Development-Online-Course-Website" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -237,13 +246,14 @@ Bank Credit Card Concept Design                                    </p>
                                 
                                 bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
+                                    <p class="text-md text-black">
                                         Online Course Landing Page
                                     </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -263,6 +273,7 @@ Bank Credit Card Concept Design                                    </p>
                         src=
 {web7} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.letsdive.io/ai" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -273,12 +284,13 @@ Bank Credit Card Concept Design                                    </p>
                                 
                                 bg-white/40 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
-BAF Interaction Cloning                                    </p>
+                                    <p class="text-md text-black">
+Website animation graphic contents                                   </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
@@ -296,6 +308,7 @@ BAF Interaction Cloning                                    </p>
                         src=
 {web8} />
                     <div class="relative px-2 mx-2 ">
+                        <a href="https://www.behance.net/gallery/164841083/Website-concept-redesign-credit-card" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
@@ -306,13 +319,14 @@ BAF Interaction Cloning                                    </p>
                                 
                                 bg-[#eaeaea]/20 backdrop-blur p-4 rounded-full shadow-xl ">
                                 <div class=" flex justify-evenly ">
-                                    <p class="text-lg text-black">
-                                        Laundry Delivery Concept Design
+                                    <p class="text-md text-black">
+                                        Credit card landing page
                                     </p>
 
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </a>
             </div>
