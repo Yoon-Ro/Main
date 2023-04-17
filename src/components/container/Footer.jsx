@@ -19,7 +19,7 @@ const Footer = () => {
         <ul className="flex gap-8 items-center">
           <li className="text-xl px-6 sm:py-2  bg-white rounded-full hover:bg-black hover:text-white shadow-2xl">
             {" "}
-            <a href="https://read.cv/yoonro" target="_blank">
+            <a href="https://drive.google.com/file/d/1oX07ZdMLWy_w9TxwI263C-RPhgO9M0Vh/view?usp=sharing" target="_blank">
               Resume
             </a>
           </li>
