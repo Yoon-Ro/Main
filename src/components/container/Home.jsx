@@ -10,7 +10,7 @@ const Home = () => {
       className="w-full sm:pt-0  sm:px-0 px-2  bg-gradient-to-tr from-rose-100 to-teal-100"
       id="home"
     ><div className="mx-auto">
-      <div className="flex  items-center  h-[100vh] ">
+      <div className="flex  items-center  h-[80vh] ">
         {/* HERO TEXT - LEFT */}
         <div className="w-3/4 relative mx-auto">
           <div className="absolute bg-white/0 w-[23rem] h-10 z-10 rounded-full left-5 top-1 bg-gradient-to-b from-[#F1F7FE]" />
@@ -22,7 +22,7 @@ const Home = () => {
           I’m Yoon, a digital graphic designer focused on            <br />
           empowering business and product growth with design.
           </div>
-          <p>Graphic designer @ <a href="https://www.letsdive.io/" target="_blank" className="underline">letsdive</a></p>
+
 
           {/* SOCIAL LINKS */}
         </div>

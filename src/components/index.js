@@ -10,5 +10,6 @@ import Navbar2 from "./Navbar/Navbar2";
 import Work from "./container/Work";
 import Together from "./container/Together";
 import Together2 from "./container/Together2";
+import Work2 from "./container/Work2";
 
-export { Navbar, Navbar2, Home, About, Courses, Teacher,Contact, Footer, Work, About2, Together, Together2 };
+export { Navbar, Navbar2, Home, About, Courses, Teacher,Contact, Footer, Work, About2, Together, Together2, Work2 };

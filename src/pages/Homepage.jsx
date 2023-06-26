@@ -6,7 +6,7 @@ import {
     Footer,
     Together,
     Work,
-    About2
+    Work2
   } from "../components/index"
   import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -17,7 +17,9 @@ const Homepage = () => {
     <Navbar />
 
       <Home />
+
       <Work/>
+      <Work2/>
  <Together/>
 
  
