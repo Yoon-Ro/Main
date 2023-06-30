@@ -7,7 +7,7 @@ import waving from "../../assets/waving.png";
 const Home = () => {
   return (
     <div
-      className="w-full sm:pt-0  sm:px-0 px-2  bg-gradient-to-tr from-rose-100 to-teal-100"
+      className="w-full sm:pt-0  sm:px-0 px-2  bg-gradient-to-b from-sky-400 to-sky-200"
       id="home"
     ><div className="mx-auto">
       <div className="flex  items-center  h-[80vh] ">
