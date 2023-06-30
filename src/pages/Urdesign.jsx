@@ -8,16 +8,16 @@ import {
   } from "../components/index"
 
 
-const Newton = () => {
+const Urdesign = () => {
   return (
     <div>
     <Navbar3/>
     
     <div className='w-[1420px] mx-auto mt-32'>
         <div className='w-[1024px] mx-auto px-8 pt-32 pb-8 rounded-[2rem] bg-red-50'>
-     <h1 className=' text-xl tracking-wider  w-fit px-8 py-2 bg-white rounded-full'>IPHONE PRICE INDICE
+     <h1 className=' text-xl tracking-wider  w-fit px-8 py-2 bg-white rounded-full'>asdasdada
      </h1>
-     <h1 className=' w-fit text-6xl py-4 leading-[4rem] font-bold'>Pricing old iphones easier <br/>with Newton Index.</h1>
+     <h1 className=' w-fit text-6xl py-4 leading-[4rem] font-bold'>Pricing old iphones easier <br/>with Urdesign Index.</h1>
      <h1 className=' text-3xl tracking-wide  w-fit'>Find your price without wasting time
      </h1>
      <img src={Image1} alt="/" className=' mx-auto mt-32 hover:shadow-lg hover:scale-105 rounded-3xl transition-all duration-200'/>
@@ -30,7 +30,7 @@ const Newton = () => {
 <h1 className='text-3xl w-fit font-medium'>Overview
      </h1>
 
-<div className='py-8 text-md leading-[2rem]'>With Newton Index, we take pride in providing our users with the most accurate and up-to-date information. We aim to equip our users with the knowledge they need to make informed decisions while purchasing used iPhones.</div>
+<div className='py-8 text-md leading-[2rem]'>With Urdesign Index, we take pride in providing our users with the most accurate and up-to-date information. We aim to equip our users with the knowledge they need to make informed decisions while purchasing used iPhones.</div>
 <div className='grid grid-cols-3 gap-8 '>
 <div className='col-span-1 border-l-2 pl-4 border-[#9B526E]'>
         <h1 className='text-xl border-b-1  py-2 text-'>Participants</h1> <br/>
@@ -141,4 +141,4 @@ const Newton = () => {
   )
 }
 
-export default Newton
+export default Urdesign

@@ -30,8 +30,8 @@ const Work = () => {
   return (
     <div id="design">
       <div className="w-3/4  mx-auto my-16">
-        <p1 className="text-4xl  sm:text-[64px] font-medium ">Design</p1> 
-        <p className="pl-1 pt-2">website + graphic</p>
+        <p1 className="text-3xl  md:text-3xl font-normal ">More Design</p1> 
+        <p className="pl-1 pt-2">website + developement + graphic</p>
         <div className="px-12 sm:px-0  flex justify-between sm:gap-16">
           <div>
 
@@ -273,7 +273,7 @@ Organic juice website                              </p>
                         src=
 {web7} />
                     <div class="relative px-2 mx-2 ">
-                        <a href="https://www.letsdive.io/ai" target="_blank">
+                        <a href="https://www.letsdive.io/" target="_blank">
                         <div class="mt-[-5rem]">
                             <div class="transition-all transform 
                                 translate-y-8 
