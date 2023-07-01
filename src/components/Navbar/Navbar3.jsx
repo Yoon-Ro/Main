@@ -34,7 +34,7 @@ const Navbar = () => {
           } w-fit py-1 mx-auto flex items-center justify-center px-1 mt-8 bg-[#ededed]/70 backdrop-blur  shadow-2xl rounded-full `}
         >
           <div className="flex gap-4 items-center justify-between "> <Link to="/">
-            <h1 className="text-sm rounded-full  px-10 py-[5px] hover:bg-white hover:text-black text-[#0000007c]">
+            <h1 className="text-sm rounded-full  px-10 py-[5px] bg-white text-black ">
              
                 <BsArrowLeftShort className="text-lg" />
               

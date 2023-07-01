@@ -19,7 +19,7 @@ const Homepage = () => {
       <Home />
 
       <Work/>
-      <Work2/>
+      {/* <Work2/> */}
  <Together/>
 
  

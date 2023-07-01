@@ -21,8 +21,8 @@ const Work = () => {
           <div className="py-0  relative">
                 <p className="text-4xl py-4">Urdesign.co</p>
                 <p className="text-sm text-black/60">(Business Development)</p>
-                <p className="text-sm py-4 w-2/3">Universal Icon Set is drawn on a pixel-based grid of 24px x 24px and scaled-up linearly to different sizes.</p>
-                <Link to="/Urdesign"><button className="px-6 py-1 bg-blue-400 rounded-full inline-block font-light tracking-wide text-sm text-white hover:text-blue-200 hover:bg-blue-500 ">Read More</button></Link>
+                <p className="text-sm py-4 w-2/3">Urdesgin.co is a productized design subscription buisness model I developed for local small businessed to empower their business through well-curated and fase-paced design outcome.</p>
+                <Link to="/Urdesign"><button className="px-6 py-1 bg-blue-500 rounded-full inline-block font-normal tracking-wide text-sm text-white  hover:bg-blue-600 transition-all duration-125 hover:scale-105 ">Read More</button></Link>
 
       
             </div>
@@ -34,8 +34,8 @@ const Work = () => {
           <div className="py-0  relative">
                 <p className="text-4xl py-4">Newton Index</p>
                 <p className="text-sm text-black/60">(Product&Web Design)</p>
-                <p className="text-sm py-4 w-2/3">Universal Icon Set is drawn on a pixel-based grid of 24px x 24px and scaled-up linearly to different sizes.</p>
-                                <button className="px-6 py-1 bg-blue-400 rounded-full inline-block font-light tracking-wide text-sm text-white hover:text-blue-200 hover:bg-blue-500 ">                                    <Link to="/Newton">
+                <p className="text-sm py-4 w-2/3">Newton Index provides the most accurate and up-to-date information of used iPhone price to make informed decisions by users while purchasing used iPhones.</p>
+                                <button className="px-6 py-1 bg-blue-500 rounded-full inline-block font-normal tracking-wide text-sm text-white  hover:bg-blue-600 transition-all duration-125 hover:scale-105">                                    <Link to="/Newton">
 Read More</Link></button>
 
       
