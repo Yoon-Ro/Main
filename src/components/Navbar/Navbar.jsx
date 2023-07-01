@@ -27,8 +27,8 @@ const scrollActive = () => { setActive(window.scrollY > 20);};
 
          <div className='flex gap-4 items-center justify-between '>
    <h1 className='text-sm rounded-full  px-8 py-1 bg-white'>Design</h1>
-   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-blue-200 hover:text-blue-700 transition-all duration-100'><Link to="/me">About</Link></h1>
-   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c]'><Link to="/me">Resume</Link></h1>
+   <Link to="/me">   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-blue-200 hover:text-blue-700 transition-all duration-100'>About</h1></Link>
+   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-orange-200 hover:text-orange-700 transition-all duration-100'>Resume</h1>
          </div>         
 
 

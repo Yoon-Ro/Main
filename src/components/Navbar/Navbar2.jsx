@@ -27,9 +27,9 @@ const scrollActive = () => { setActive(window.scrollY > 20);};
       active ? "py-4" : "py-4 transition-all duration-125"} w-fit py-1 mx-auto flex items-center justify-center px-1 mt-8 bg-[#ededed]/70 backdrop-blur  shadow-2xl rounded-full `}>
 
          <div className='flex gap-4 items-center justify-between '>
-   <h1 className='text-sm rounded-full  px-8 py-1  hover:bg-blue-200 hover:text-blue-700 transition-all duration-100'><Link to="/">Design</Link></h1>
-   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] bg-white'><Link to="/me">About</Link></h1>
-   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c]'><Link to="/me">Resume</Link></h1>
+   <h1 className='text-sm rounded-full  px-8 py-1  hover:bg-blue-200 hover:text-blue-700 transition-all duration-100 text-[#0000007c]'><Link to="/">Design</Link></h1>
+   <Link to="/me"><h1 className=' text-sm rounded-full px-8 py-1 text-black bg-white'>About</h1></Link>
+   <h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-orange-200 hover:text-orange-700 transition-all duration-100'>Resume</h1>
          </div>         
 
 
