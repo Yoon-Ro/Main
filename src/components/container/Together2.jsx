@@ -25,6 +25,11 @@ const Together = () => {
 </div>
 
 </div>
+<div className='grid grid-cols-3 gap-8 mx-auto '>
+  <div className='col-span-3'>
+    <p className='text-4xl font-medium'>My favourites are...</p>
+  </div>
+</div>
 {/* <div className=''>
 <h className="text-2xl font-bold">Education</h>
 <p className='text-md text-black py-4'>Bachelor in Interaction (UI/UX) Design @ Emily Carr University of Art + Design<br/>
