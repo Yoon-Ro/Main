@@ -30,7 +30,7 @@ const Navbar = () => {
       <div>
         <div
           className={`${
-            active ? "py-4" : "py-4 transition-all duration-125"
+            active ? "py-2" : "py-2 transition-all duration-125"
           } w-fit py-1 mx-auto flex items-center justify-center px-1 mt-8 bg-[#ededed]/70 backdrop-blur  shadow-2xl rounded-full `}
         >
           <div className="flex gap-4 items-center justify-between "> <Link to="/">
@@ -43,7 +43,7 @@ const Navbar = () => {
             <h1 className=" text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-blue-200 hover:text-blue-700 transition-all duration-100">
               <Link to="/me">About</Link>
             </h1>
-            <a href="https://drive.google.com/file/d/19_1Pu-DnzFbXiQjudG4m0QsEybKIKxFf/view?usp=sharing" target="_blank"><h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-orange-200 hover:text-orange-700 transition-all duration-100'>
+            <a href="https://drive.google.com/file/d/14EyD39Fr3Yr5iMPfmQS3rBPsEjItOhzA/view?usp=sharing" target="_blank"><h1 className=' text-sm rounded-full px-8 py-1 text-[#0000007c] hover:bg-orange-200 hover:text-orange-700 transition-all duration-100'>
               Resume
             </h1>
             </a>

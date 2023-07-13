@@ -22,9 +22,9 @@ const Work = () => {
               <p className="text-4xl py-4">Urdesign.co</p>
               <p className="text-sm text-black/60">(Business Development)</p>
               <p className="text-sm py-4 w-2/3">
-                Urdesgin.co is a productized design subscription buisness model
-                I developed for local small businessed to empower their business
-                through well-curated and fase-paced design outcome.
+                Productized design subscription buisness model
+               for local small businessed to empower their business
+                through well-curated and fast-paced design outcome.
               </p>
               <Link to="/Urdesign">
                 <button className="px-6 py-1 bg-blue-500 rounded-full inline-block font-normal tracking-wide text-sm text-white  hover:bg-blue-600 transition-all duration-125 hover:scale-105 ">
