@@ -24,7 +24,7 @@ const Together = () => {
       <h1 className='text-sm  text-[#000000] py-2'>Made with <span className='hover:text-[#236b4b]'>Vite</span>, Figma & Vercel</h1>
     </div>
     <div className='col-span-1 '>
-    <h1 className='text-sm text-[#0000007c] '>Socials</h1>
+    <h1 className='text-sm text-[#0000007c] '>More designs are available</h1>
       <div className=' text-[#000000c4] flex gap-4 py-2'>
       <a href="https://www.pinterest.ca/yoonro/" target="_blank"> <BsPinterest className='text-xl hover:text-red-500 transition-all duration-125 hover:scale-150'/></a>
       <a href="https://www.linkedin.com/in/yoon-ro-ab4838124/" target="_blank"><AiFillLinkedin className='text-xl hover:text-blue-700 transition-all duration-125 hover:scale-150'/></a>
